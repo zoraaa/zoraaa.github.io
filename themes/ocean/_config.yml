@@ -37,9 +37,9 @@ toc: true
 
 # Gitalk
 gitalk:
-  enable: false      # 默认关闭评论 开启：true
-  clientID:      # 申请 GitHub Application 网页上对应的 Client ID 与 Client Secret 参数
-  clientSecret:      # 同上
-  repo:      # 创建的仓库名称
-  owner:      # Github ID
-  admin:      # Github ID
+  enable: true      # 默认关闭评论 开启：true
+  clientID: $clientID    # 申请 GitHub Application 网页上对应的 Client ID 与 Client Secret 参数
+  clientSecret: $clientSecret      # 同上
+  repo: blog-Gitalk     # 创建的仓库名称
+  owner: zoraaa     # Github ID
+  admin: zoraaa     # Github ID
