@@ -97,7 +97,7 @@ theme: ocean
 deploy:
   type: git
   repo: https://github.com/zoraaa/blog
-  branch: master
+  branch: gh-pages
   token: $GH_TOKEN
   message: message
   name: zora
