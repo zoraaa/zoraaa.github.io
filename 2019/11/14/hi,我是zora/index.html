@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
-    归档: 2019 |
+    hi,欢迎来到这 |
     
     洛克青象</title>
   
@@ -24,78 +24,120 @@
 <body>
 <main class="content">
   <section class="outer">
-  <article class="articles">
+  
+
+<article id="post-hi,我是zora" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
+  
+  <div class="article-inner">
     
-    <h1 class="page-type-title">2019</h1>
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      hi,欢迎来到这
+    </h1>
+  
+  
+
+
+
+
+      </header>
+    
 
     
-    
-    
-      
-      
-        
-        
-    <div class="archives-wrap">
-      <div class="archive-year-wrap">
-        <a href="/archives/2019" class="archive-year">2019</a>
-      </div>
-      <div class="archives">
-        
-        <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/11/14/hello-world/" class="archive-article-date">
-  <time datetime="2019-11-14T14:07:56.472Z" itemprop="datePublished">11/14</time>
+      <div class="article-meta">
+        <a href="/2019/11/14/hi,%E6%88%91%E6%98%AFzora/" class="article-date">
+  <time datetime="2019-11-14T14:07:56.472Z" itemprop="datePublished">2019-11-14</time>
 </a>
-      
-  
-    <h2 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/14/hello-world/">Hello World</a>
-    </h2>
-  
-  
-
-
-
-
-    </header>
-    
-    
-  </div>
-</article>
-        
-      
-      
-        <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/11/14/hi,%E6%88%91%E6%98%AFzora/" class="archive-article-date">
-  <time datetime="2019-11-14T14:07:56.472Z" itemprop="datePublished">11/14</time>
-</a>
-      
-  
-    <h2 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/14/hi,%E6%88%91%E6%98%AFzora/">hi,欢迎来到这</a>
-    </h2>
-  
-  
-
-
-
-
-    </header>
-    
-    
-  </div>
-</article>
-        
         
       </div>
+    
+
+    
+      
+
+
+
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+  <div class="article-gallery">
+    <div class="article-gallery-photos">
+      
+        
+          <img src="https://zzx-blog-1252950863.cos.ap-shanghai.myqcloud.com/000008.JPG" itemprop="image">
+        
+      
     </div>
+  </div>
+
+
+      
+        <p>我是一个小毛驴<br>我是一个哈哈哈哈</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.zhangzixuan.top/2019/11/14/hi,%E6%88%91%E6%98%AFzora/" data-id="ck2ysgjan000213vke8q22wqg"
+         class="article-share-link">分享</a>
+      
+    </footer>
+
+  </div>
+
+  
     
+  <nav class="article-nav">
+    
+      <a href="/2019/11/14/hello-world/" class="article-nav-link">
+        <strong class="article-nav-caption">前一篇</strong>
+        <div class="article-nav-title">
+          
+            Hello World
+          
+        </div>
+      </a>
+    
+    
+  </nav>
+
+
   
 
   
+    
+  <div class="gitalk" id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+  <script type="text/javascript">
+    var gitalk = new Gitalk({
+      clientID: '2dab2e4ed24b33cdfff4',
+      clientSecret: '860fe70a9c1ef3c265b73009b2e515feef7a9fde',
+      repo: 'blog-Gitalk',
+      owner: 'zoraaa',
+      admin: ['zoraaa'],
+      // id: location.pathname,      // Ensure uniqueness and length less than 50
+      id: md5(location.pathname),
+      distractionFreeMode: false,  // Facebook-like distraction free mode
+      pagerDirection: 'last'
+    })
+
+  gitalk.render('gitalk-container')
+  </script>
+
+  
+
+</article>
+
+
+
 </section>
   <footer class="footer">
   <div class="outer">
@@ -116,8 +158,8 @@
 
 </main>
 
-  <aside class="sidebar">
-    
+<aside class="sidebar sidebar-specter">
+  
     <button class="navbar-toggle"></button>
 <nav class="navbar">
   
@@ -182,6 +224,21 @@
   <script src="/fancybox/jquery.fancybox.min.js"></script>
 
 
+
+  <script src="/js/tocbot.min.js"></script>
+  <script>
+    // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+    tocbot.init({
+      tocSelector: '.tocbot',
+      contentSelector: '.article-entry',
+      headingSelector: 'h1, h2, h3, h4, h5, h6',
+      hasInnerContainers: true,
+      scrollSmooth: true,
+      positionFixedSelector: '.tocbot',
+      positionFixedClass: 'is-position-fixed',
+      fixedSidebarOffset: 'auto',
+    });
+  </script>
 
 
 <script src="/js/ocean.js"></script>
