@@ -3,7 +3,9 @@
   <entry>
     <title>hi,欢迎来到这</title>
     <url>/2019/11/15/hi,%E6%88%91%E6%98%AFzora/</url>
-    <content><![CDATA[<p>我是一个小毛驴<br>我是一个哈哈哈哈<br>哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈😂</p>
+    <content><![CDATA[<p>我是一个小毛驴<br>我是一个哈哈哈哈</p>
+<p><img src="https://zzx-blog-1252950863.cos.ap-shanghai.myqcloud.com/000008.JPG" alt="avatar"></p>
+<p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈😂</p>
 ]]></content>
   </entry>
   <entry>
@@ -11,7 +13,7 @@
     <url>/2019/11/15/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
+<p>3-设计师们有时与设计相遇、同行最后分开，有的设计师有清晰的概念和善于表演的特质（善于传达），无论设计师赞成什么反对什么，他都有清晰而具体的概念，并且能准确无误。而很有多优秀的设计作品因为一些平庸的挑刺而被抛弃也是存在的，坏的设计常常是缺乏沟通以及基础不扎实导致的。所以我们必须给所有词汇下定义，什么是好的，什么是不好的，什么是逻辑，如何通过逻辑走向一条有趣的路。无须担心，保罗兰德说除非你是上帝，否则不可能有完美的设计。</p>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
