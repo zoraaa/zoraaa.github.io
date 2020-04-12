@@ -117,7 +117,7 @@ a:active {
 }
 
 .new-detail-container {
-    width: 1655px;
+    width: 840px;
     margin-left: 100px;
 }
 
@@ -198,7 +198,9 @@ a:active {
 .in_profileItem a {
     display: block;
     float: left;
-    position: relative
+    position: relative;
+    margin-right: 28px;
+    margin-bottom: 28px;
 }
 
 .in_profileTwo {
@@ -259,12 +261,12 @@ a:active {
 }
 
 .worksDetail_img {
-    width: 1800px;
+    width: 780px;
     float: left;
 }
 
 .worksDetail_about {
-    width: 700px;
+    width: 370px;
     margin: 0 0 0 50px;
     float: left;
     font-size: 15px;
