@@ -1,7 +1,7 @@
-$(function () {
-    $(".in_profileItem a").hover(function () {
+$(function() {
+    $(".in_profileItem a").hover(function() {
         $(this).stop().animate({ top: "-20px", opacity: ".7" });
-    }, function () {
+    }, function() {
         $(this).stop().animate({ top: "0", opacity: "1" });
     })
 })
