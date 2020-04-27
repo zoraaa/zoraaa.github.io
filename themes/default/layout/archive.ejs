@@ -10,8 +10,8 @@
     <meta name="viewport" content="width=1300">
     <title>NEWS</title>
     <%- css('css/style.css') %>
-    <%- js('js/jquery-1.11.1.min.js') %>
-    <%- js('js/main.js') %>
+        <%- js('js/jquery-1.11.1.min.js') %>
+            <%- js('js/main.js') %>
 </head>
 
 <body>
@@ -29,9 +29,11 @@
         <div class="newsList">
             <ul>
                 <% page.posts.each(function(article) { %>
-                <li><i></i><span><%= date(article.date) %></span><a href="<%= url_for(article.path) %>"
-                        title="<%= article.title %>"><%= article.title %></a>
-                    <% }); %>
+                    <li><i></i><span><%= date(article.date) %></span>
+                        <a href="<%= url_for(article.path) %>" title="<%= article.title %>">
+                            <%= article.title %>
+                        </a>
+                        <% }); %>
             </ul>
         </div>
         <div class="clear" style="height:50px;"></div>

@@ -10,8 +10,8 @@
     <meta name="viewport" content="width=1300">
     <title>OPEN-NEWS</title>
     <%- css('css/style.css') %>
-    <%- js('js/jquery-1.11.1.min.js') %>
-    <%- js('js/main.js') %>
+        <%- js('js/jquery-1.11.1.min.js') %>
+            <%- js('js/main.js') %>
 </head>
 
 <body>
@@ -28,7 +28,9 @@
         </div>
         <div class="pageDetail">
             <div class="pageDetail_top">
-                <h2 class="pageDetail_title"><%- page.title %></h2>
+                <h2 class="pageDetail_title">
+                    <%- page.title %>
+                </h2>
                 <!-- <p class="pageDetail_info"><%- page.date %></p> -->
             </div>
             <div class="pageDetail_con">
@@ -38,20 +40,22 @@
                 <p class="fl">
                     上一篇：
                     <% if (page.prev){ %>
-                    <a href="<%- config.root %><%- page.prev.path %>"
-                        title="<%- page.prev.title %>"><%- page.prev.title %></a>
-                    <% } else { %>
-                    <span>没有了</span>
-                    <% }%>
+                        <a href="<%- config.root %><%- page.prev.path %>" title="<%- page.prev.title %>">
+                            <%- page.prev.title %>
+                        </a>
+                        <% } else { %>
+                            <span>没有了</span>
+                            <% }%>
                 </p>
                 <p class="fr">
                     下一篇：
                     <% if (page.next){ %>
-                    <a href="<%- config.root %><%- page.next.path %>"
-                        title="<%- page.next.title %>"><%- page.next.title%></a>
-                    <% } else { %>
-                    <span>没有了</span>
-                    <% }%>
+                        <a href="<%- config.root %><%- page.next.path %>" title="<%- page.next.title %>">
+                            <%- page.next.title%>
+                        </a>
+                        <% } else { %>
+                            <span>没有了</span>
+                            <% }%>
                 </p>
 
             </div>
