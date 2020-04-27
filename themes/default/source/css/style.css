@@ -271,11 +271,11 @@ a:active {
     /*设置文本水平居中*/
     overflow: hidden;
     /*防止内容超出容器或者产生自动换行*/
-    color: rgb(241, 170, 16);
+    color: rgb(208, 240, 157);
     -webkit-backface-visibility: hidden;
     /* 隐藏旋转元素的背面*/
     backface-visibility: hidden;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(247, 241, 241, 0.1);
     /*后面这个0.6是指的背景的透明度*/
     opacity: 0;
     -webkit-transition: all 0.35s ease-in-out;
