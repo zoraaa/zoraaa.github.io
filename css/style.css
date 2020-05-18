@@ -241,6 +241,45 @@ a:active {
     margin-bottom: 28px;
 }
 
+.in_profileItem .info  {
+    position: absolute;
+    top: 190px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 360px;
+    height: 30px;
+    line-height: 25px;
+    padding: 10px 20px;
+    /*设置line-height与父级元素的height相等*/
+    text-align: left;
+    /*设置文本水平居中*/
+    overflow: hidden;
+    /*防止内容超出容器或者产生自动换行*/
+  
+    -webkit-backface-visibility: hidden;
+    /* 隐藏旋转元素的背面*/
+    backface-visibility: hidden;
+    background: rgba(247, 241, 241, 0.1);
+    /*后面这个0.6是指的背景的透明度*/
+    opacity: 0;
+    -webkit-transition: all 0.35s ease-in-out;
+    /*规定提示信息怎样出现ease-in-out以慢速度开始和结束*/
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    color: rgb(248, 248, 248);
+}
+
+.in_profileItem a:hover .info {
+    opacity: 1;
+    /*有opacity有0变成1*/
+}
+
 .album {
     margin-top: 100px;
 }
