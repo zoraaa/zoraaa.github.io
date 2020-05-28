@@ -10,13 +10,17 @@
     <meta name="viewport" content="width=1300">
     <title>OPEN-NEWS</title>
     <%- css('css/style.css') %>
-        <%- js('js/jquery-1.11.1.min.js') %>
-            <%- js('js/main.js') %>
+    <%- js('js/jquery-1.11.1.min.js') %>
+    <%- js('js/main.js') %>
 </head>
 
 <body>
     <div class="new-detail-container">
-        <div class="headerAteliers"><a href="/">I'M ZHANG ZI XUAN</a></div>
+        <div class="headerAteliers"> <a href="/">
+                <img height="28px" width="200px"
+                    src="https://zzx-blog-1252950863.cos.ap-shanghai.myqcloud.com/%E6%A0%87%E9%A2%98.png" />
+            </a>
+        </div>
         <div class="nav">
             <ul class="clearfix">
                 <li class="current"><a href="../../../../archives/index.html">NEWS</a></li>
@@ -39,22 +43,22 @@
                 <p class="fl">
                     上一篇：
                     <% if (page.prev){ %>
-                        <a href="<%- config.root %><%- page.prev.path %>" title="<%- page.prev.title %>">
-                            <%- page.prev.title %>
-                        </a>
-                        <% } else { %>
-                            <span>没有了</span>
-                            <% }%>
+                    <a href="<%- config.root %><%- page.prev.path %>" title="<%- page.prev.title %>">
+                        <%- page.prev.title %>
+                    </a>
+                    <% } else { %>
+                    <span>没有了</span>
+                    <% }%>
                 </p>
                 <p class="fr">
                     下一篇：
                     <% if (page.next){ %>
-                        <a href="<%- config.root %><%- page.next.path %>" title="<%- page.next.title %>">
-                            <%- page.next.title%>
-                        </a>
-                        <% } else { %>
-                            <span>没有了</span>
-                            <% }%>
+                    <a href="<%- config.root %><%- page.next.path %>" title="<%- page.next.title %>">
+                        <%- page.next.title%>
+                    </a>
+                    <% } else { %>
+                    <span>没有了</span>
+                    <% }%>
                 </p>
 
             </div>

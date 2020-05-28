@@ -10,13 +10,16 @@
     <meta name="viewport" content="width=1300">
     <title>NEWS</title>
     <%- css('css/style.css') %>
-        <%- js('js/jquery-1.11.1.min.js') %>
-            <%- js('js/main.js') %>
+    <%- js('js/jquery-1.11.1.min.js') %>
+    <%- js('js/main.js') %>
 </head>
 
 <body>
     <div class="container">
-        <div class="headerAteliers"><a href="/">I'M ZHANG ZI XUAN</a></div>
+        <div class="headerAteliers"> <a href="/">
+                <img height="28px" width="200px"
+                    src="https://zzx-blog-1252950863.cos.ap-shanghai.myqcloud.com/%E6%A0%87%E9%A2%98.png" />
+            </a></div>
         <div class="nav">
             <ul class="clearfix">
                 <li class="current"><a href="index.html">NEWS</a></li>
@@ -28,11 +31,11 @@
         <div class="newsList">
             <ul>
                 <% page.posts.each(function(article) { %>
-                    <li><i></i><span><%= date(article.date) %></span>
-                        <a href="<%= url_for(article.path) %>" title="<%= article.title %>">
-                            <%= article.title %>
-                        </a>
-                        <% }); %>
+                <li><i></i><span><%= date(article.date) %></span>
+                    <a href="<%= url_for(article.path) %>" title="<%= article.title %>">
+                        <%= article.title %>
+                    </a>
+                    <% }); %>
             </ul>
         </div>
         <div class="clear" style="height:50px;"></div>
