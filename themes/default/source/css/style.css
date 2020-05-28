@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑','Frutiger', Arial, sans-serif;
     font-size: 12px;
     color: #333333;
 }
@@ -175,7 +175,7 @@ a:active {
 }
 
 .nav {
-    margin-top: 20px;
+    margin-top: 32px;
 }
 
 .nav ul li {
@@ -184,10 +184,21 @@ a:active {
 }
 
 .nav ul li a {
-    font-family: "Helvetica";
+    font-family: "Frutiger";
     font-weight: bold;
     font-size: 28px;
     color: #090000;
+}
+
+
+@font-face{
+    font-family:'Frutiger';
+    src:url('../fonts/Frutiger.eot');/* IE9 Compat Modes */
+    src:url('../fonts/Frutiger.eot?#iefix')format('embedded-opentype'),/* IE6-IE8 */
+    url('../fonts/Frutiger.woff')format('woff'),/* Modern Browsers */
+    url('../fonts/Frutiger.ttf')format('truetype'),/* Safari, Android, iOS */
+    url('../fonts/Frutiger.svg#Frutiger')format('svg');/* Legacy iOS */
+    font-weight: bold;
 }
 
 .nav ul li.current a,
@@ -230,7 +241,7 @@ a:active {
 /*首页*/
 
 .in_profile {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .in_profileItem a {
@@ -305,7 +316,7 @@ a:active {
 /*联系我们*/
 
 .contact {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .contact_img {
@@ -327,7 +338,7 @@ a:active {
 /*简介*/
 
 .profile {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .profile_img {
